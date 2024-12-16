@@ -4,6 +4,24 @@
     <ClCompile Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\carlib\gc_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\carlib\gc_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\carlib\gc_xml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\carlib\gc_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\carlib\gc_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\carlib\gc_iggy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Administrator\Desktop\Repositories\IggyParser\CMakeLists.txt" />
