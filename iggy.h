@@ -48,7 +48,7 @@ struct IGGYFlashHeader32
     uint32 unk_34;               // 0x34
     uint32 unk_38;               // 0x38
     uint32 unk_3C;               // 0x3C
-    float framerate;              // 0x40
+    float framerate;             // 0x40
     uint32 unk_44;               // 0x44
     uint32 unk_48;               // 0x48
     uint32 unk_4C;               // 0x4C
@@ -83,7 +83,7 @@ struct IGGYFlashHeader64
     uint32 unk_4C;               // 0x4C
     uint32 unk_50;               // 0x50
     uint32 unk_54;               // 0x54
-    float framerate;                // 0x58
+    float framerate;             // 0x58
     uint32 unk_5C;               // 0x5C
     uint64 unk_60;               // 0x60
     uint64 unk_68;               // 0x68
