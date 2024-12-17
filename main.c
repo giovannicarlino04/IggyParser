@@ -1,4 +1,4 @@
-#include "carlib/gc_iggy.h"
+#include "../carlib/gc_iggy.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +9,10 @@
 int main(int argc, char **argv){
     if(argc >= 2)
         gc_parse_iggy(argv[1]);
-    else
-        printf("Errm... Did you forget to load an iggy file?");
+    else{
+        printf("Errm... Did you forget to load an iggy file?\n");
+        return 0;
+    }
     getchar();
+    return 0;
 }
