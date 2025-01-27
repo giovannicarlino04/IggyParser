@@ -1,1 +1,1 @@
-gcc -static main.c ../carlib/gc_iggy.c ../carlib/gc_common.c ../carlib/gc_memory.c ../carlib/gc_debug.c -o IggyParser
+gcc -static main.c ../carlib/gc_iggy.c ../carlib/gc_common.c ../carlib/gc_memory.c ../carlib/gc_debug.c ../carlib/gc_file.c -o IggyParser

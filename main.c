@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <inttypes.h> // Per stampare correttamente uint64_t
+#include <inttypes.h>
 
 int main(int argc, char **argv){
     if(argc >= 2){
@@ -20,7 +20,7 @@ int main(int argc, char **argv){
 
     }
     else{
-        gc_MessageBox("usage <Program> <IggyFile>", MB_ICONERROR);
+        gc_MessageBox("usage: <Program> <IggyFile>", MB_ICONERROR);
         return 0;
     }
     getchar();
